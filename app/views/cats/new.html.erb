@@ -1,0 +1,10 @@
+<%= form_for @cat do |form| %>
+  <fieldset>
+    <legend>
+      <%= t('.title') %>
+    </legend>
+    <%= form.label :image %>
+    <%= form.file_field :image, accept: 'image/*' %>
+    <%= form.submit %>
+  </fieldset>
+<% end %>

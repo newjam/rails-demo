@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Demo</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <nav class='navigation-bar'>
+        <span class='navigation-bar__heading'>Cats!</span>
+        <ul class="navigation-bar__list">
+          <li class="navigation-bar__list-item"><%= link_to 'List Cats', cats_path, class: 'navigation-bar__link' %></li>
+          <li class="navigation-bar__list-item"><%= link_to 'Add Cat', new_cat_path, class: 'navigation-bar__link' %></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <ul class='flashes'>
+        <% flash.each do |key, value| %>
+          <li class='flashes__flash flashes__flash--<%= key %>'><%= value %></li>
+        <% end %>
+      </ul>
+      <section>
+        <%= yield %>
+      </section>
+    </main>
+  </body>
+</html>

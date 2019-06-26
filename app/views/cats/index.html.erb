@@ -1,0 +1,9 @@
+<ul class='cat-grid'>
+  <% @cats.each do |cat| %>
+    <li class='cat-grid__item'>
+      <%= link_to(cat) do %>
+        <%= image_tag(cat.image) %>
+      <% end %>
+    </li>
+  <% end %>
+</ul>

@@ -1,0 +1,4 @@
+<%= image_tag @cat.image, class: 'pure-img' %>
+<%= form_for @cat, method: 'delete' do |form| %>
+  <%= form.submit 'Delete Cat', class: 'pure-button' %>
+<% end %>

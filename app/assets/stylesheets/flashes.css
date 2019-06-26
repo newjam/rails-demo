@@ -1,0 +1,19 @@
+.flashes {
+  margin: 0;
+  padding: 0;
+}
+
+.flashes__flash {
+  padding: 1em;
+  list-style: none;
+}
+
+.flashes__flash--alert {
+  background-color: #C33B3B;
+  color: #231B1B;
+}
+
+.flashes__flash--notice {
+  background-color: #97FD97;
+  color: #37AD37;
+}
