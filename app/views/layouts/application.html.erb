@@ -12,10 +12,10 @@
   <body>
     <header>
       <nav class='navigation-bar'>
-        <span class='navigation-bar__heading'>Cats!</span>
+        <span class='navigation-bar__heading'><%= t('heading') %></span>
         <ul class="navigation-bar__list">
-          <li class="navigation-bar__list-item"><%= link_to 'List Cats', cats_path, class: 'navigation-bar__link' %></li>
-          <li class="navigation-bar__list-item"><%= link_to 'Add Cat', new_cat_path, class: 'navigation-bar__link' %></li>
+          <li class="navigation-bar__list-item"><%= link_to t('cats.index.title'), cats_path, class: 'navigation-bar__link' %></li>
+          <li class="navigation-bar__list-item"><%= link_to t('cats.new.title'), new_cat_path, class: 'navigation-bar__link' %></li>
         </ul>
       </nav>
     </header>

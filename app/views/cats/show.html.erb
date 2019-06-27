@@ -1,4 +1,4 @@
-<%= image_tag @cat.image, class: 'pure-img' %>
+<%= image_tag @cat.image %>
 <%= form_for @cat, method: 'delete' do |form| %>
-  <%= form.submit 'Delete Cat', class: 'pure-button' %>
+  <%= form.submit t('.destroy') %>
 <% end %>

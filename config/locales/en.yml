@@ -30,14 +30,19 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  heading: 'Cats!'
   cats:
+    index:
+      title: 'List Cats'
     new:
-      title: 'Add a new Cat!'
+      title: 'Add Cat'
     create:
       created: 'Cat created!'
       not_created: 'Cat not created.'
     destroy:
       destroyed: 'Cat destroyed.'
+    show:
+      destroy: 'Delete Cat'
   activerecord:
     errors:
       messages:
