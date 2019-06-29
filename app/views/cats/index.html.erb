@@ -2,7 +2,13 @@
   <% @cats.each do |cat| %>
     <li class='cat-grid__item'>
       <%= link_to(cat) do %>
-        <%= image_tag(cat.image) %>
+        <%= image_tag(cat.image.variant(
+          combine_options: {
+            resize: '480x480^',
+            gravity: 'center',
+            crop: '480x480+0+0'
+          }
+        )) %>
       <% end %>
     </li>
   <% end %>
