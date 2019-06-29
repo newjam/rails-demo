@@ -4,7 +4,7 @@ In this simple example, I created/modified these files
 
 * [`config/routes.rb`](https://github.com/newjam/rails-demo/blob/master/config/routes.rb)
 * [`app/controllers/cats_controller.rb`](https://github.com/newjam/rails-demo/blob/master/app/controllers/cats_controller.rb)
-* [`app/models/cat.rb`](https://github.com/newjam/rails-demo/blob/master/)
+* [`app/models/cat.rb`](https://github.com/newjam/rails-demo/blob/master/app/models/cat.rb)
 * [`app/views/cats/index.html.erb`](https://github.com/newjam/rails-demo/blob/master/app/views/cats/index.html.erb)
 * [`app/views/cats/new.html.erb`](https://github.com/newjam/rails-demo/blob/master/app/views/cats/new.html.erb)
 * [`app/views/cats/show.html.erb`](https://github.com/newjam/rails-demo/blob/master/app/views/cats/show.html.erb)
