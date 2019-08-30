@@ -11,3 +11,5 @@ In this simple example, I created/modified these files
 * [`app/views/layouts/application.html.erb`](https://github.com/newjam/rails-demo/blob/master/app/views/layouts/application.html.erb)
 * [`app/assets/stylesheets`](https://github.com/newjam/rails-demo/tree/master/app/assets/stylesheets)
 * [`db/migrate/20190625011518_create_cats.rb`](https://github.com/newjam/rails-demo/blob/master/db/migrate/20190625011518_create_cats.rb)
+
+![Image of Yaktocat](screenshot.png)
